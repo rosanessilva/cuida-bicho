@@ -15,14 +15,8 @@ export default function App() {
       <StatusBar barStyle="light-content" />
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen
-            name="bichos"
-            component={Produtos}
-            options={{ title: 'Bichinhos' }} />
-          <Stack.Screen
-            name="bicho"
-            component={Produto}
-            options={{ title: 'Bicho selecionado' }} />
+          <Stack.Screen name="bichos" component={Produtos}  options={{ title: 'Bichinhos' }} />
+          <Stack.Screen name="bicho"  component={Produto} options={{ title: 'Bicho selecionado' }} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
